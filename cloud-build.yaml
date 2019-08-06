@@ -1,13 +1,5 @@
 steps:
   - name: gcr.io/cloud-builders/docker
-    args:
-      [
-        'build',
-        '-f',
-        'Dockerfile',
-        '-t',
-        'gcr.io/project-name/container-name',
-        '.',
-      ]
+    args: ['build', '-f', 'Dockerfile', '-t', 'gcr.io/saveech-2/sav', '.']
 images:
-  - gcr.io/project-name/container-name
+  - gcr.io/saveech-2/sav
